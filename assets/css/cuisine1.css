@@ -1,0 +1,133 @@
+main .ariane li a {
+    color:#ff822e;
+}
+
+main .ariane li a:hover {
+    color: #c05a16 ;
+}
+
+.scrollTop {
+    background-color: rgba(255, 130, 46, .5);
+}
+
+.scrollTop:hover {
+    background-color: #c05a16;
+}
+
+/* titre catégories */
+main .header_titre{
+    background-color: #ff822e;
+    padding: 15px;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    margin: 50px auto;
+}
+main h1{
+    text-align: center;
+    font-size: x-large;
+    color: #ff822e;
+}
+
+main .header_titre img {
+    width: 40px;
+   
+}
+
+main div {
+    margin: 0 auto;
+    width: 90%;
+}
+
+main div img {
+    width: 100%;
+}
+
+main h3{
+    width: 95%;
+    margin: 20px auto;
+    background-color: #ff822e;
+    padding: 15px;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+}
+
+main h4 {
+    text-align: center;
+    font-size: 1.6rem;
+    border-bottom: 2px solid #ff822e;
+    width: 45%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+main .ingredients,.recettes {
+    margin: 0 auto;
+}
+
+article li {
+    margin: 20px 0;
+}
+
+article ul,ol {
+    margin: 0 auto;
+    width: 238px;
+}
+
+article ul{
+    list-style: none;
+}
+    
+article ul li{
+    padding-left: 2rem; 
+    background-image: url(../images/icons/star_orange.svg);
+    background-position:0 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+}
+
+/* wwwwwwwwwwwwwwwww Media query wwwwwwwwwwwwwwwww  */
+@media screen and (min-width: 450px) {
+    article ul,ol {
+        width: 320px;
+    }    
+}
+
+@media screen and (min-width: 768px) {
+    main div {
+        width: 55%;
+    }
+
+    article h3 {
+        width: 85%;
+    }
+
+    article ul,ol {
+        width: 450px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    main div {
+        width: 60%;
+    }
+
+    article h3 {
+        width: 75%;
+    }
+
+    article ul,ol {
+        width: 550px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    main div {
+        width: 65%;
+    }
+
+    article h3 {
+        width: 65%;
+    }
+}

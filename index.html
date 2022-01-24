@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="des jeux vidéos en ligne gratuits activités manuelles, des tutoriels bricolage, peinture pour les enfants, des jolies coloriages à imprimer, des délicieuses recettes sucrées et salées, des bons plans à découvrir sur récréakids.fr">
+  <title>Récréakids</title>
+  <!-- icon onglet -->
+  <link rel="icon" href="assets/images/logo5.png" type="image/png">
+  <!-- feuille de style bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- feuille de style css -->
+  <link rel="stylesheet" href="assets/css/template_header_footer.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/template_articles.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/global.css" type="text/css">
+</head>
+<body>
+  <!--wwwwwwwwwwwwwwwww Header et ses contenus wwwwwwwwwwwwwwwww-->
+  <header>
+    <nav>
+      <div class="menu">
+        <!-- logo -->
+        <a href="index.html">
+          <img id="logo" src="assets/images/logo5.png" alt="logo recreakids">
+        </a>
+        <h1>
+          <a href="index.html">
+            <img class="logo_desktop" src="assets/images/logo5.png" alt="logo recreakids">
+           Récréakids</a>
+        </h1>
+        <!-- menu navigation version desktop -->
+        <div class="navigation-links justify-content-between">
+          <a href="pages/jeux_video/jeux.html">Jeux vidéos</a>
+          <a href="pages/activites_manuelles/activites.html">Activités manuelles</a>
+          <a href="pages/cuisine/cuisine.html">Cuisine</a>
+          <a href="pages/sorties_exterieures/sorties_exterieures.html">Sorties extérieures</a>
+          <a href="pages/contact/contact.html">Contact</a>
+        </div>
+        <!-- boutton burger -->
+        <button>
+          <img src="assets/images/icons/menu.svg" alt="icone menu hamburger">
+        </button>
+      </div>
+      <!-- liste menu navigation -->
+      <ul>
+        <li>
+          <a href="pages/jeux_video/jeux.html">
+            <img src="assets/images/icons/gamepad.svg" alt="icone manette">
+            <span>Jeux vidéos</span>
+          </a>
+        </li>
+        <li>
+          <a href="pages/activites_manuelles/activites.html">
+            <img src="assets/images/icons/scissors.svg" alt="icone ciseaux">
+            <span>Activités manuelles</span>
+          </a>
+        </li>
+        <li>
+          <a href="pages/cuisine/cuisine.html">
+            <img src="assets/images/icons/cooked.svg" alt="icone fouet">
+            <span>Cuisine</span>
+          </a>
+        </li>
+        <li>
+          <a href="pages/sorties_exterieures/sorties_exterieures.html">
+            <img src="assets/images/icons/tree.svg"
+              alt="icone arbre">
+            <span>Sorties extérieures</span>
+          </a>
+        </li>
+        <li>
+          <a href="pages/contact/contact.html">
+            <img src="assets/images/icons/mail.svg" alt="icone mail">
+            <span>Contact</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!--wwwwwwwwwwwwwwwww Main et ses contenus wwwwwwwwwwwwwwwww-->
+  <main>
+    <!-- flèches pour remonter vers le haut -->
+    <div id="stop" class="scrollTop">
+      <a href="#">
+        <img src="assets/images/icons/up.svg" alt="icone flèche direction haut">
+      </a>
+    </div>
+    <!-- slider -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/images/jouer.jpg" class="d-block w-100" alt="oeufs style vitrail">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/apprendre.jpg" class="d-block w-100" alt="enfants">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/oeuf.jpg" class="d-block w-100" alt="oeufs colorée">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!-- actus -->
+    <section id="actus">
+      <h2>Nos coups de coeur</h2>
+      <p>Chocolat, cloches, repas familial… Le week-end de Pâques est synonyme de fête pour les petits et les grands. Et pour te préparer à tout ça, nous te proposons notre petite sélection favorite pour célébrer au mieux cette fête !</p>
+      <div class="d-flex justify-content-center flex-wrap">
+        <article>
+          <header>
+            <h4>Recette de l'oeuf au chocolat</h4>
+          </header>
+          <a href="pages/cuisine/recettes_sucrees/oeuf_chocolat.html">
+            <div>
+              <img src="assets/images/oeufchocolat.jpg" alt="oeuf au chocolat">
+            </div>
+          </a>
+        </article>
+        <article>
+          <header>
+            <h4>Coloriage animaux de la mer</h4>
+          </header>
+          <a href="pages/activites_manuelles/coloriages/coloriage_animaux-mer.html">
+            <div>
+              <img src="assets/images/animaux_de_la_mer.jpeg" alt="animaux de la mer">
+            </div>
+          </a>
+        </article>
+        <article>
+          <header>
+            <h4>Jeu Pac Rat</h4>
+          </header>
+          <a href="pages/jeux_video/arcade/pac_rat.html">
+            <div>
+              <img src="assets/images/pac_rat.png" alt="le jeu pac rat">
+            </div>
+          </a>
+        </article>
+        <article>
+          <header>
+            <h4>Musée Haribo</h4>
+          </header>
+          <a href="pages/sorties_exterieures/insolites/musee_haribo.html">
+            <div>
+              <img src="assets/images/musee_du_bonbon_haribo.jpg" alt="musee haribo">
+            </div>
+          </a>
+        </article>
+      </div>
+    </section>
+  </main>
+  <!--wwwwwwwwwwwwwwwww Footer et ses contenus wwwwwwwwwwwwwwwww-->
+  <footer>
+    <!-- image nuage -->
+    <img src="assets/images/cloud.png" alt="nuage" class="nuage">
+    <!-- image arc en ciel -->
+    <div>
+      <img src="assets/images/rainbow1.png" alt="arc-en-ciel" class="arc-en-ciel">
+    </div>
+    <!-- réseaux sociaux -->
+    <section id="reseaux">
+      <h2>Rejoignez-nous !</h2>
+      <ul class="d-flex justify-content-center">
+        <li>
+          <a href="#">
+            <img src="assets/images/icons/facebook.svg" alt="facebook">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="assets/images/icons/instagram.svg" alt="instagram">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="assets/images/icons/snapchat.svg" alt="snapchat">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="assets/images/icons/youtube.svg" alt="youtube">
+          </a>
+        </li>
+      </ul>
+    </section>
+    <!-- mentions légales -->
+    <p class="mentions">Mentions légales</p>
+    <!-- copyright -->
+    <p>©Copyright Récréakids</p>
+  </footer>
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+  <!-- bootstrap -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+  <!-- javascript -->
+  <script src="assets/js/main.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,184 @@
+main .ariane li a {
+    color:#03DDDC;
+}
+
+main .ariane li a:hover {
+    color:#009c9b;
+}
+
+.scrollTop {
+    background-color: rgba(3, 221, 220, .5);
+}
+
+.scrollTop:hover {
+    background-color: #009c9b;
+}
+
+/* section article {
+    width: 287px;
+    margin: 0 auto;
+} */
+  
+section h1{
+    text-align: center;
+    font-size: x-large;
+    color:#03DDDC;
+}
+article .image {
+    margin: 0 auto;
+    width: 90%;
+}
+
+article .image-virus {
+    width: 100%;
+}
+
+article .image img {
+    width: 100%;
+
+}
+
+article p {
+    margin: 50px 0;
+    text-align: center;
+    background-color: #03DDDC;
+    padding: 50px 20px;
+    color:white;
+}
+
+article li {
+    margin: 50px 0;
+    list-style-position: inside;
+}
+
+article .header_titre {
+    width: 70%;
+    margin: 20px auto;
+    background-color: #03DDDC;
+    padding: 15px;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+}
+
+article h3 {
+    width: 70%;
+    margin: 20px auto;
+    background-color: #03DDDC;
+    padding: 15px;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+}
+
+article h4 {
+    width: 80%;
+    margin: 20px auto;
+    border-bottom: #03DDDC 2px solid;
+    padding: 15px;
+    text-align: center;
+    color: black;
+}
+
+article ul,ol {
+    margin: 0 auto;
+    width: 238px;
+}
+
+article ul{
+    list-style: none;
+}
+
+article ul li{
+    padding-left: 2rem; 
+    background-image: url(../images/icons/star_blue.svg);
+    background-position:0 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+    margin: 50px 0;
+    list-style-position: inside;
+  }
+
+/* bouton imprimer */
+.new-print-button {
+    background-color: #03DDDC;
+    background-image:               url(http://uploads.webflow.com/58403463926ee7da5fc95c2c/5840549e41ed56e151574a8c_print%20button%20icon%203-white.svg), url(http://uploads.webflow.com/58403463926ee7da5fc95c2c/5840549e316b850d0aa56057_print%20button%20icon%202-white.svg);
+    background-position-x: 17px, 17px;
+    background-position-y: -122%, 47%;
+    background-repeat: no-repeat;
+    background-size: 33px, 34px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color:white;
+    cursor: pointer;
+    display: block;
+    font-family: "Comfortaa-Bold", sans-serif;
+    font-size: 23px;
+    font-weight: normal;
+    height: 64px;
+    line-height: 24px;
+    margin: 0 10px 0 10px;
+    padding: 20px 40px 20px 62px;
+    text-align: center;
+    text-decoration: none;
+    text-size-adjust: 100%;
+    transition-delay: 1s, 0s, 0s, 0s, 0s, 0s;
+    transition-duration: 0.2s, 0.2s, 0.2s, 0.2s, 0.2s, 0.2s;
+    transition-property: background-color, background-position, opacity, color, text-shadow, box-shadow;
+    transition-timing-function: ease, ease, ease, ease, ease, ease;
+    width: 276.109px;
+    margin: 0 auto;
+  }
+  
+.new-print-button:hover {
+    background-position: 16px 45%, 17px 218%;
+    background-color: #31e085;
+}
+
+/* wwwwwwwwwwwwwwwww Media query wwwwwwwwwwwwwwwww  */
+@media screen and (min-width: 450px) {
+    article ul,ol {
+        width: 320px;
+    }    
+}
+
+@media screen and (min-width: 768px) {
+    article .image {
+        width: 60%;
+    }
+
+    article h3 {
+        width: 50%;
+    }
+
+    article ul,ol {
+        width: 450px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    article .image {
+        width: 50%;
+    }
+
+    article h3 {
+        width: 45%;
+    }
+
+    article ul,ol {
+        width: 550px;
+    } 
+}
+
+@media screen and (min-width:1200px) {
+    article .image {
+        width: 40%;
+    }
+
+    article h3 {
+        width: 40%;
+    }
+}
+
+
+

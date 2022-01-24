@@ -1,0 +1,98 @@
+main .ariane li a {
+    color:#03DDDC;
+}
+
+main .ariane li a:hover {
+    color:#009c9b;
+}
+
+main .ancre li {
+    background-color: #03DDDC;
+}
+
+main .ancre li:hover {
+    background-color: #009c9b;
+}
+
+.scrollTop {
+    background-color: rgba(3, 221, 220, .5);
+}
+
+.scrollTop:hover {
+    background-color: #009c9b;
+}
+
+/* catégories */
+.stage {
+    height: auto;
+}
+
+main h2 {
+    width: 90%;
+    margin: 20px auto;
+    background-color: #03DDDC;
+    padding: 15px;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+
+/* bouton imprimer */
+.new-print-button {
+    background-color: #03DDDC;
+    background-image:               url(http://uploads.webflow.com/58403463926ee7da5fc95c2c/5840549e41ed56e151574a8c_print%20button%20icon%203-white.svg), url(http://uploads.webflow.com/58403463926ee7da5fc95c2c/5840549e316b850d0aa56057_print%20button%20icon%202-white.svg);
+    background-position-x: 17px, 17px;
+    background-position-y: -122%, 47%;
+    background-repeat: no-repeat;
+    background-size: 33px, 34px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color:white;
+    cursor: pointer;
+    display: block;
+    font-family: "Comfortaa-Bold", sans-serif;
+    font-size: 23px;
+    font-weight: normal;
+    height: 64px;
+    line-height: 24px;
+    margin: 0 10px 0 10px;
+    padding: 20px 40px 20px 62px;
+    text-align: center;
+    text-decoration: none;
+    text-size-adjust: 100%;
+    transition-delay: 1s, 0s, 0s, 0s, 0s, 0s;
+    transition-duration: 0.2s, 0.2s, 0.2s, 0.2s, 0.2s, 0.2s;
+    transition-property: background-color, background-position, opacity, color, text-shadow, box-shadow;
+    transition-timing-function: ease, ease, ease, ease, ease, ease;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+.new-print-button:hover {
+    background-position: 16px 45%, 17px 218%;
+    background-color: #31e085;
+}
+
+/* wwwwwwwwwwwwwwwww Media query wwwwwwwwwwwwwwwww  */
+@media screen and (min-width: 768px) {
+    main h2 {
+        width: 85%;
+        margin: 25px auto;
+    }
+      
+}
+    
+@media screen and (min-width:992px) {  
+    main h2 {
+        width: 80%;
+        margin: 25px auto;
+    }
+}
+    
+@media screen and (min-width:1200px) {
+    main h2 {
+        width: 50%;
+        margin: 25px auto;
+    }       
+}

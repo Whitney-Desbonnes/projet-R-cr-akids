@@ -1,0 +1,42 @@
+/* menu de navigation desktop */
+.navigation-links a:first-child {
+    background-color: #a905a9;
+    color: white;
+    border: none;
+}
+
+/* fil d'ariane */
+main .ariane li a {
+    color:#a905a9;
+}
+
+main .ariane li a:hover {
+    color:#6d006a;
+}
+
+.scrollTop {
+    background-color: rgba(168, 0, 164, .5);
+}
+
+.scrollTop:hover{
+    background-color: #6d006a;
+}
+
+main h2 {
+    text-align: center;
+    color: #6d006a;
+}
+
+main h1 {
+    margin: 20px auto;
+    background-color: #a905a9;
+    padding: 15px;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+}
+
+table {
+    padding-bottom: 500px;
+}
+

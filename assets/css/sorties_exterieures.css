@@ -1,0 +1,53 @@
+/* fil d'ariane */
+main .ariane li a {
+    color:#93C54B;
+}
+
+main .ariane li a:hover {
+    color: #93C54B;
+}
+
+main .ancre li {
+    background-color: #93C54B;
+}
+
+main .ancre li:hover {
+    background-color: #93C54B;
+}
+
+.scrollTop {
+    background-color: #93C54B;
+}
+
+.scrollTop:hover {
+    background-color: #93C54B;
+}
+
+/* catégories */
+main .plein-air {
+    background-image: url("../images/plein_air.jpg");
+}
+
+main .insolites {
+    background-image: url("../images/montgolfiere.jpg");
+}
+
+main .bons-plans {
+    background-image: url("../images/sale.jpg");
+}
+
+main h1 {
+    color: #93C54B;
+}
+
+/* titre catégories */
+
+main h2 {
+    background-color: #93C54B;
+}
+
+main section h3{
+    color:#93C54B;
+}
+
+

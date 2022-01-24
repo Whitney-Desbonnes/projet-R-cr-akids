@@ -1,0 +1,145 @@
+/* menu de navigation desktop */
+.navigation-links a:last-child {
+    background-color: #C72575;
+    color: white;
+    border: none;
+}
+
+main .ariane li a {
+    color:#C72575;
+}
+
+main .ariane li a:hover {
+    color: #a905a9;
+}
+
+/* formulaire */
+form {
+    border-radius: 15px;
+    margin: 60px auto;
+    width: 94%;
+    padding-bottom: 50px;
+    box-shadow: 0 3px 6px #aaa;
+}
+
+form legend {
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 20px;
+    padding: 30px 0;
+    background-color: #C72575;
+    border-radius: 15px 15px 0 0;
+}
+
+form fieldset {
+    display: flex;
+    flex-direction: column;
+}
+
+.champs, textarea {
+    border: 2px solid #C72575;
+    padding: 20px;
+    border-radius: 20px;
+    color: black;
+    margin:20px auto 0 auto;
+    width: 80%;
+}
+
+form button {
+    padding: 30px;
+    width: 199px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    background-color: #C72575;
+    color: #fff;
+    border-radius: 20px;
+}
+
+form button:hover {
+    background-color: #a905a9;
+}
+
+#popup{
+    min-width: 330px;
+    max-width: 700px;
+	max-height: 80%;
+	overflow-y:auto; 
+	padding: 2rem;
+	background: #ebadb6;
+	position: fixed;
+	z-index: 100;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	color: #fff;
+	display: none;
+}
+
+#popup a {
+    display: block;
+    text-align: right;
+    color: #fff;
+}
+
+.check {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:20px auto 0 auto;
+    width: 80%;
+}
+
+.error {
+    color: red;
+}
+
+#nom-error.error, #prenom-error.error, #email-error.error, #message-error.error {
+    width: 75%;
+    margin: 0 auto;
+    color: red;
+}
+
+#rgpd-error.error {
+    color: red;
+    margin-left: 5px;
+}
+
+.error::before {
+    content: url("../images/icons/warning.svg");
+}
+
+.scrollTop {
+    background-color: rgba(199, 37, 117, .5);
+}
+
+.scrollTop:hover {
+    background-color: #a905a9;
+}
+
+/* wwwwwwwwwwwwwwwww Media query wwwwwwwwwwwwwwwww  */
+@media screen and (min-width: 768px) {
+    form {
+        width: 85%;
+    }
+
+}
+    
+@media screen and (min-width:992px) { 
+    form {
+        width: 75%;
+    }
+}
+    
+@media screen and (min-width:1200px) { 
+    form {
+        width: 65%;
+    }
+}
+
+

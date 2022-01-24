@@ -1,0 +1,49 @@
+/* fil d'ariane */
+main .ariane li a {
+    color:#03DDDC;
+}
+
+main .ariane li a:hover {
+    color:#009c9b;
+}
+
+main .ancre li {
+    background-color: #03DDDC;
+}
+
+main .ancre li:hover {
+    background-color: #009c9b;
+}
+
+.scrollTop {
+    background-color: rgba(3, 221, 220, .5);
+}
+
+.scrollTop:hover {
+    background-color: #009c9b;
+}
+
+/* catégories */
+main .coloriage {
+    background-image: url("../images/coloriage-banniere.jpeg");
+}
+
+main .peinture {
+    background-image: url("../images/peinture.jpg");
+}
+
+main .bricolage {
+    background-image: url("../images/bricolage-banniere.jpeg");
+}
+main h1{
+    text-align: center;
+    color:#03DDDC;
+
+}
+main h2 {
+    background-color:#03DDDC;
+}
+
+main section h3 {
+    color:#03DDDC;
+}

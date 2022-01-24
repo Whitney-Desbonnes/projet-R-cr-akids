@@ -1,0 +1,45 @@
+/* fil d'ariane */
+main .ariane li a {
+    color:#ff822e;
+}
+
+main .ariane li a:hover {
+    color: #c05a16 ;
+}
+
+main .ancre li {
+    background-color: #ff822e;
+}
+
+main .ancre li:hover {
+    background-color: #c05a16;
+}
+
+.scrollTop {
+    background-color: rgba(255, 130, 46, .5);
+}
+
+.scrollTop:hover {
+    background-color:#c05a16;
+}
+
+/* catégories */
+main #recettes_sucrees {
+    background-image: url("../images/banniere_site_recette3.jpg");
+}
+
+main #recettes_sales {
+    background-image: url("../images/quiche.jpg");
+}
+
+/* titre catégories */
+main h1{
+   color: #ff822e;
+}
+main h2 {
+    background-color: #ff822e;
+}
+
+main section h3 {
+    color:#ff822e;
+}
